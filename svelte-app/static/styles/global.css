@@ -2,9 +2,16 @@ body {
   background: linear-gradient(to bottom, #D6EAF8, #B0C4DE);
 }
 
-  h1 {
+h1 {
     font-family: 'Poppins', sans-serif;
     color: black;
     text-align: center;
     padding: 5px;
-  }
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  text-align: center;
+  padding: 5px;
+}
