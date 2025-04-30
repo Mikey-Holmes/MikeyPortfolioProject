@@ -62,11 +62,19 @@
 
   .text-section {
     max-width: 600px;
+    font-family: 'Poppins', sans-serif;
     text-align: left;
     background-color: rgba(173, 216, 230, 0.6);
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
+
+  .text-section:hover {
+    transform: scale(1.05);
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+
 
 </style>

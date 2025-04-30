@@ -51,11 +51,16 @@
     text-align: justify;
     padding: 12px;
     margin: 10px 0;
-    background-color: #f7f7f7;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    background-color: rgba(173, 216, 230, 0.6);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
+
+  .text:hover {
+    transform: scale(1.02);
+    font-size: 1.1em;
+    cursor: pointer;
+  }
+  
 
   .second-image {
     max-width: 60%;
