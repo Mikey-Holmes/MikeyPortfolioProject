@@ -1,5 +1,5 @@
 <footer>
-  <h3>Mikey Holmes Portfolio, 2025</h3>
+  <h3>Mikey Holmes Portfolio, 2025, Contact info on CV page</h3>
 </footer>
 
 <style>

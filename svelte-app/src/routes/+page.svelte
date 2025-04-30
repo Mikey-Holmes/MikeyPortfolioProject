@@ -37,4 +37,23 @@
     max-width: 750px;
   }
 
+  h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #34495e;
+    text-align: center;
+    line-height: 1.4;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    color: #34495e;
+  }
 </style>
