@@ -26,4 +26,27 @@
   transform: scale(1.05);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
 }
+
+ @media (max-width: 768px){
+   .cv-container {
+    height: auto; 
+    padding: 20px;
+  }
+
+  .cv-container img{
+     max-width: 90%; 
+     max-height: 70%; 
+  }
+ }
+
+ @media (max-width: 480px){
+  .cv-container {
+    padding: 10px; 
+  }
+
+  .cv-container img{
+    max-width: 100%; 
+    max-height: auto; 
+   }
+ }
 </style>

@@ -76,5 +76,37 @@
     cursor: pointer;
   }
 
+@media (max-width: 768px){
+ .image-with-text{
+  flex-direction: column; 
+  align-items: center;
+  gap: 20px;
+}
 
+.portfolio-image{
+  width: 100%;
+}
+
+.text-section{
+  text-align: center; 
+  font-size: 1em; 
+ }
+}
+@media (max-width: 480px){
+.portfolio-container{
+   gap: 15px; 
+}
+
+ .image-with-text{
+  gap: 15px;
+ }
+
+ .portfolio-image{
+  width: 90%; 
+}
+
+.text-section{
+  font-size: 0.9em; 
+}
+}
 </style>

@@ -61,9 +61,31 @@
     cursor: pointer;
   }
   
-
   .second-image {
     max-width: 60%;
     height: auto;
   }
+
+@media (max-width: 768px){
+ .section{
+   flex-direction: column;
+   gap: 15px; 
+  }
+
+  .text{
+    font-size: 0.9rem;
+    text-align: center; 
+  }
+}
+
+@media (max-width: 480px){
+  .text{
+    font-size: 0.8rem; 
+  }
+
+img {
+  max-width: 90%;
+ }
+}
+
 </style>

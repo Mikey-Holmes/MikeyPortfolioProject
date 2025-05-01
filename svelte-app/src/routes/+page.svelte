@@ -56,4 +56,33 @@
     margin-bottom: 30px;
     color: #34495e;
   }
+
+  @media (max-width: 768px){
+  .image-container{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .portfolio-image{
+    max-width: 90%;
+  }
+
+  h1{
+    font-size: 2em;
+  }
+
+  h2{
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 480px){
+  h1{
+    font-size: 1.8em;
+  }
+
+  h2{
+    font-size: 1em;
+  }
+}
 </style>

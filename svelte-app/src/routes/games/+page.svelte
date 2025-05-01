@@ -73,4 +73,21 @@
   font-size: 1em;
 }
 
+@media (max-width: 768px) {
+    .pics {
+      flex: 1 1 100%;
+    }
+  }
+
+
+  @media (max-width: 480px) {
+    .text-box {
+      font-size: 0.9em; 
+      padding: 10px; 
+    }
+
+    .small-footer {
+      font-size: 0.85em;
+    }
+  }
 </style>
