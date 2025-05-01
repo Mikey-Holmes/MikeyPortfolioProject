@@ -1,0 +1,1 @@
+import{t as s,a}from"../chunks/CWUQNkuJ.js";import"../chunks/D37lIqiX.js";import{n as o}from"../chunks/gbKeXrjf.js";var r=s('<link rel="stylesheet" href="/styles/global.css"> <div class="cv-container svelte-o4jbju"><img src="cv.png" alt="my CV" class="svelte-o4jbju"></div>',1);function p(e){var t=r();o(2),a(e,t)}export{p as component};
